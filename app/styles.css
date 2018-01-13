@@ -1,0 +1,62 @@
+html {
+	font-size: 20px;
+	margin:0;
+}
+
+ul {
+	margin:0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color:#5A5A5A;
+}
+
+a:hover{
+	color:rgb(171, 238, 232);
+	text-decoration: underline;
+}
+
+form>input {
+	margin-right: 15px;
+}
+
+.app{
+	width: 850px;
+	overflow: auto;
+	margin: 0 auto;
+}
+
+.ContactForm {
+	border-radius: 10px;
+	width: 850px;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	float:left;
+}
+
+.ContactsList {
+	border-radius: 10px;
+	width: 850px;
+	float:left;
+}
+
+.contactItem {
+	background-color: rgb(249, 249, 249);
+	padding: 25px;
+	margin: 25px;
+	border-radius: 10px;
+}
+
+.contactItem:hover {
+    background-color: #CBCBCB;
+}
+
+img {
+	width: 80px;
+	height: 80px;
+	margin-right: 10px;
+	float:left;	
+}
